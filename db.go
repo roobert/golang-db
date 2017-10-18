@@ -3,9 +3,10 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/mattn/go-sqlite3"
-	. "github.com/roobert/dms/error"
 	"os"
+
+	_ "github.com/mattn/go-sqlite3"
+	. "github.com/roobert/golang-error"
 )
 
 var DB *sql.DB

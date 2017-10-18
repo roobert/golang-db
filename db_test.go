@@ -1,9 +1,10 @@
 package db
 
 import (
-	_ "github.com/mattn/go-sqlite3"
 	"os"
 	"testing"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 func TestCreateDB(t *testing.T) {
